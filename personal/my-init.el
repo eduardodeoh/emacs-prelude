@@ -60,7 +60,7 @@
 ;;(require 'setup-helm)
 ;;(require 'setup-direx)
 (require 'setup-company)
-(require 'setup-my-information)
+(require 'setup-personal-information)
 ;;(require 'setup-save-place)
 ;;(require 'setup-shell)
 (require 'setup-theme)
