@@ -9,12 +9,11 @@
 
 
 (message "Loading Prelude Modules...")
-
 ;;(require 'prelude-erc)
 ;;(require 'prelude-ido) ;; Super charges Emacs completion for C-x C-f and more
-;;(require 'prelude-helm) ;; Interface for narrowing and search
-;;(require 'prelude-helm-everywhere) ;; Enable Helm everywhere
-;;(require 'prelude-company)
+(require 'prelude-helm) ;; Interface for narrowing and search
+(require 'prelude-helm-everywhere) ;; Enable Helm everywhere
+(require 'prelude-company)
 ;; (require 'prelude-key-chord) ;; Binds useful features to key combinations
 ;; (require 'prelude-mediawiki)
 ;; (require 'prelude-evil)
@@ -25,9 +24,9 @@
 ;; (require 'prelude-coffee)
 ;; (require 'prelude-common-lisp)
 ;; (require 'prelude-css)
-;;(require 'prelude-emacs-lisp)
+(require 'prelude-emacs-lisp)
 ;; (require 'prelude-erlang)
-;;(require 'prelude-elixir)
+(require 'prelude-elixir)
 ;; (require 'prelude-go)
 ;; (require 'prelude-haskell)
 ;;(require 'prelude-js)
@@ -40,7 +39,7 @@
 ;; (require 'prelude-ruby)
 ;; (require 'prelude-scala)
 ;;(require 'prelude-scheme)
-;;(require 'prelude-shell)
+(require 'prelude-shell)
 ;; (require 'prelude-scss)
 ;; (require 'prelude-web) ;; Emacs mode for web templates
 ;;(require 'prelude-xml)
@@ -48,23 +47,20 @@
 
 
 (message "Loading My Setups...")
-
-;;(require 'setup-my-packages)
+(require 'setup-my-packages)
 ;;(require 'custom-commands)
 ;;(require 'setup-aesthesics)
 ;;(require 'setup-auto-save)
 ;;(require 'setup-backups)
 ;;(require 'setup-ui)
-;;(require 'setup-elixir)
-;;(require 'setup-ember)
-;;(require 'setup-helm)
-;;(require 'setup-direx)
-;;(require 'setup-company)
-;;(require 'setup-personal-information)
+(require 'setup-elixir)
+(require 'setup-ember)
+(require 'setup-helm)
+(require 'setup-direx)
+(require 'setup-company)
+(require 'setup-personal-information)
 ;;(require 'setup-save-place)
-;;(require 'setup-shell)
-;;(require 'setup-theme)
+(require 'setup-shell)
+(require 'setup-theme)
 ;;(require 'setup-window)
-;;(require 'setup-yasnippet)
-
-(prelude-require-packages '(elixir-mode alchemist))
+(require 'setup-yasnippet)
