@@ -11,3 +11,9 @@
    conf-mode-hook
    css-mode-hook))
 (setq cursor-type 'box)
+(setq scroll-margin 5
+      scroll-conservatively 9999
+      scroll-step 1)
+
+
+(provide 'setup-ui)

@@ -33,9 +33,9 @@
 (add-hook 'text-mode-hook 'set-my-margins)
 (add-hook 'prog-mode-hook 'set-my-margins)
 
-(setq linum-format " %d ")
-(add-hook 'prog-mode-hook 'linum-mode)
-(setq-default tab-width 2)
+;;(setq linum-format " %d ")
+;;(add-hook 'prog-mode-hook 'linum-mode)
+;;(setq-default tab-width 2)
 
 ;; TODO: TEST
 ;;(add-hook 'prog-mode-hook
@@ -51,3 +51,4 @@
 ;;                             ))))
 ;;(global-prettify-symbols-mode t)
 
+(provide 'setup-aesthesics)

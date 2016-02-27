@@ -1,6 +1,15 @@
-;;; Uncomment the modules you'd like to use and restart Prelude afterwards
+(defvar my-prelude-dir (file-name-directory load-file-name)
+  "The root dir of the My Personal Configurations.")
 
-;; Emacs IRC client
+(defvar my-modules-dir (expand-file-name "my-modules" my-prelude-dir)
+  "This directory is for my personal configuration.")
+
+;; add My modules's directory to Emacs's `load-path'
+(add-to-list 'load-path my-modules-dir)
+
+
+(message "Loading Prelude Modules...")
+
 ;;(require 'prelude-erc)
 ;;(require 'prelude-ido) ;; Super charges Emacs completion for C-x C-f and more
 (require 'prelude-helm) ;; Interface for narrowing and search
@@ -36,3 +45,24 @@
 ;; (require 'prelude-web) ;; Emacs mode for web templates
 ;;(require 'prelude-xml)
 ;; (require 'prelude-yaml)
+
+
+(message "Loading My Setups...")
+
+(require 'setup-my-packages)
+;;(require 'custom-commands)
+;;(require 'setup-aesthesics)
+;;(require 'setup-auto-save)
+;;(require 'setup-backups)
+;;(require 'setup-ui)
+;;(require 'setup-elixir)
+;;(require 'setup-ember)
+;;(require 'setup-helm)
+;;(require 'setup-direx)
+(require 'setup-company)
+(require 'setup-my-information)
+;;(require 'setup-save-place)
+;;(require 'setup-shell)
+(require 'setup-theme)
+;;(require 'setup-window)
+;;(require 'setup-yasnippet)

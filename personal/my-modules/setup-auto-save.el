@@ -9,3 +9,6 @@
 
 ;; auto-save tramp files in local directory
 (setq tramp-auto-save-directory my-auto-save-folder)
+
+
+(provide 'setup-auto-save)

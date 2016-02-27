@@ -5,3 +5,5 @@
     (switch-to-buffer buf)
     (funcall (and initial-major-mode))
     (setq buffer-offer-save t)))
+
+(provide 'custom-commands)

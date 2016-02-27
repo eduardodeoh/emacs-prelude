@@ -10,10 +10,16 @@
    direx
 
    ;;
+   ember-mode
+
+   ;;
    yasnippet
 
    ;;
    elixir-yasnippets
+
+   ;;
+   ember-yasnippets
 
    ;;
    ;;neotree
@@ -25,3 +31,5 @@
    windmove switch-window
 
    ))
+
+   (provide 'setup-my-packages)

@@ -5,3 +5,5 @@
 (global-set-key (kbd "C-x r") 'windmove-right)
 (global-set-key (kbd "C-x n") 'windmove-down)
 (global-set-key (kbd "C-x p") 'windmove-up)
+
+(provide 'setup-window)

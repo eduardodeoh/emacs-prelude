@@ -49,3 +49,5 @@
                (reusable-frames . visible)
                (side            . right)
                (window-width   . 0.5)))
+
+(provide 'setup-elixir)

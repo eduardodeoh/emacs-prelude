@@ -6,3 +6,5 @@
 (define-key company-active-map (kbd "C-p") 'company-select-previous)
 
 (setq company-idle-delay 1)
+
+(provide 'setup-company)
